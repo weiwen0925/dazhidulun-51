@@ -751,4 +751,57 @@ setTimeout(fabShow,600);setTimeout(fabShow,2000);
 })();
 </script>
 <!--WY-SEARCH:END-->
+<!--WY-C51P1:BEGIN-->
+<style id="wy-c51p1-css">
+.c51p1-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c51p1-fabbox.show{display:block;}
+.c51p1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c51p1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c51p1-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c51p1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c51p1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c51p1-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c51p1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c51p1-modal.open{display:flex;}
+.c51p1-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c51p1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c51p1-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c51p1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c51p1-close:hover{background:#e3d5b8;}
+.c51p1-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c51p1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c51p1-tbl th,.c51p1-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c51p1-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c51p1-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c51p1-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c51p1-tbl b{color:#8b2500;}
+.c51p1-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c51p1-note b{color:#8b2500;}
+@media(max-width:900px){.c51p1-fabbox{right:14px;}.c51p1-tbl{font-size:11.5px;}.c51p1-card{padding:26px 14px 16px;}}
+</style>
+<div class="c51p1-fabbox" id="c51p1Box"><button class="c51p1-btn" id="c51p1Btn" type="button" aria-label="開啟全景總表"><span class="c51p1-ic">▦</span><span class="c51p1-ls"><span class="c51p1-l1">本品 · 釋勝出品</span><span class="c51p1-l2">勝出源於證悟無</span></span></button></div><div class="c51p1-modal" id="c51p1Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c51p1-card"><button class="c51p1-close" id="c51p1Close" type="button" aria-label="關閉">×</button><h3>卷51・第1品 釋勝出品（第二十二）· 全景總表</h3><p class="sub">卷51・第1品｜勝出品・中觀第一定律・大悲＋空性</p><table class="c51p1-tbl"><caption>一、勝出品・論證骨架</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>全品文本架構</td><td>依「讚歎→略說→反證」三階展開；揭示中觀邏輯第一定律——「若法實有，不可破壞；以法空故，能得解脫」；以如夢觀證成勝出來自「證悟無」，而非證悟另一個「有」。</td></tr><tr><td>須菩提讚歎與體相</td><td>須菩提以五事讚歎摩訶衍；佛說摩訶衍體相——六度、陀羅尼三昧、十八空、道品，並闡「虛空等」「三世等」之深義。</td></tr><tr><td>逐項勝出論證</td><td>依五層鋪陳：三界蘊處界虛妄故勝出、法性如實際無法故勝出、六度十八空三十七道品乃至十八不共法勝出、性人法八人法三乘聖法乃至一切世間勝出、菩薩諸心金剛慧諸佛三十二相光明音聲法輪勝出。</td></tr><tr><td>譬喻與虛空含受</td><td>以三人度惡道譬喻明三乘方便道各異；以虛空含受、無入出住相，釋「虛空等」「三世等」之義。</td></tr><tr><td>五番問答</td><td>佛何以更說摩訶衍？無為法云何言無？佛德段為何不再說「勝出」？何以獨說勝出諸天人阿修羅？龍王得道何以是惡道？五問層層深化勝出之理。</td></tr><tr><td>總攝與結歸</td><td>以四重對境破斥矩陣（三界、無為、涅槃、惡道）收攝全品；大乘心法總攝為「大悲＋空性＝勝出」；終結歸《中論》「以有空義故，一切法得成」。</td></tr></tbody></table><table class="c51p1-tbl"><caption>二、勝出機制・關鍵論證</caption><thead><tr><th>論證</th><th>解析</th></tr></thead><tbody><tr><td>中觀邏輯第一定律</td><td>「若法實有，不可破壞；以法空故，能得解脫」——勝出的力量非來自建立更強大的「有」，而來自徹見世間本是虛妄的「證悟無」。</td></tr><tr><td>如夢觀</td><td>以夢喻說明：無法喚醒「自以為已清醒」之人；煩惱若有自性，則解脫終不可能；唯證悟「無」，方能真實勝出。</td></tr><tr><td>五層勝出論證</td><td>由蘊處界之虛妄，推至法性如實際之無法，再至六度十八空道品之殊勝，乃至性人法、金剛慧、佛三十二相音聲法輪，層層擴展勝出之範圍。</td></tr><tr><td>五番問答的深化</td><td>從「何以更說」到「無為云何言無」，從「勝出」不再重述到「獨說勝出諸天人」，終至「龍王得道何以是惡道」，逐層排除對「勝出」的表相誤解。</td></tr><tr><td>四重對境破斥矩陣</td><td>三界（世間）、無為（涅槃法性）、涅槃（果證）、惡道（業報）四境皆以空義破斥其實有相，證成摩訶衍於一切境皆勝出。</td></tr></tbody></table><table class="c51p1-tbl"><caption>三、中觀結論</caption><thead><tr><th>視角</th><th>內容</th></tr></thead><tbody><tr><td>大悲與空性的合流</td><td>大乘心法總攝為「大悲＋空性＝勝出」——空性破除實有之執，大悲成就利他之行，二者合一方是真勝出，非徒智解。</td></tr><tr><td>結歸中論</td><td>品末以《中論》「以有空義故，一切法得成」總攝全品，說明「空」非虛無斷滅，而是一切法（含勝出）得以成立之根本。</td></tr><tr><td>與後品的橋接</td><td>本品確立「勝出」之力源於「空」；下一品〈含受品〉即由「勝出之空」轉入「與空等」「含受之空」，辯鋒由超勝轉向容受。</td></tr></tbody></table><p class="c51p1-note">本品以「若法實有，不可破壞；以法空故，能得解脫」為中觀邏輯第一定律，貫穿全品五層勝出論證與五番問答：世間蘊處界、出世間法性、六度十八空道品、聖賢果位，乃至佛之相好音聲，皆因其本性空寂而非因另立一實有之「更勝」，方能真實超勝一切世間及諸天、人、阿修羅。大悲與空性合流，成就「勝出」而不落有為之執，終歸《中論》「以有空義故，一切法得成」，為下一品由「勝出」轉入「含受」預留辯證伏筆。</p></div></div>
+<script id="wy-c51p1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c51p1Btn"),BOX=document.getElementById("c51p1Box"),MODAL=document.getElementById("c51p1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c51p1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C51P1:END-->
 </body></html>
